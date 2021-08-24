@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 import java.util.Locale;
 
-public class LanguageCommand extends SubCommand{
+public class LanguageCommand extends SubCommand{//
 
     @Override
     public void accessCommand(CommandSender sender, String[] args) {

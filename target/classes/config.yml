@@ -1,0 +1,20 @@
+## CZUtils v1.0 Configuration File
+Settings:
+  Multi-Language: false  #Only support CZUtils now
+  Lobby-Mode: true # If the server is a lobby
+  Chat-Format: "%player_name%: $message" # PAPI Supported, ChatColor Supported, Use vanilla message with "default"
+Message:  #Default Language : English
+  Join: "default"  # PAPI Supported, Use vanilla message with "default"
+  Quit: "default" # PAPI Supported, Use vanilla message with "default"
+  Console-Denied: "&7I'm sorry, you can't execute this command as &a console."
+  Help-Line-1: "&bCZUtils &7Help"
+  Help-Line-2: "&b/czutils help &8- &7Show the help of CZUtils"
+  Help-Line-3: "&b/czutils language &8- &7Change the language of CZUtils &7(Other languages will only be seen by you)"
+  Language-Usage: "&7Usage: &b/czutils language <Language> \nLanguage List: %lang%"
+  Language-Changed: "&7Your CZUtils language has changed to &b%lang%"
+  Language-Not-Found: "&b%lang% is not found!"
+  Reloaded: "&7Plugin reloaded!"
+
+Languages:
+  - ENGLISH
+  - CHINESE_SIMPLIFIED

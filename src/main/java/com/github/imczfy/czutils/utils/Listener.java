@@ -10,7 +10,7 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-public class Listener implements org.bukkit.event.Listener {
+public class Listener implements org.bukkit.event.Listener {//
     private CZUtils i = CZUtils.getPlugin(CZUtils.class);
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {

@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 
 import java.util.List;
 
-public class LanguageUtils {
+public class LanguageUtils {//
     private CZUtils i = CZUtils.getPlugin(CZUtils.class);
     private Player player;
     public LanguageUtils(Player player) {

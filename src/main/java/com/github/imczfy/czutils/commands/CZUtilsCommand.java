@@ -62,7 +62,7 @@ public class CZUtilsCommand implements CommandExecutor, TabCompleter {
         }
         return false;
     }
-
+    //
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         if (!(sender instanceof Player)) {
@@ -75,6 +75,13 @@ public class CZUtilsCommand implements CommandExecutor, TabCompleter {
                     continue;
                 }
                 arguments.add(args[i]);
+            }
+            if (args.length == 1) {
+                List<String> commands = new ArrayList<>();
+                commands.add("help");
+                commands.add("reload");
+                commands.add("language");
+                return commands;
             }
             if (args[0].equalsIgnoreCase("language")) {
                 if (args.length == 2) {
