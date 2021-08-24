@@ -1,0 +1,11 @@
+Message: #为后台准备的消息不可更改，即使更改，也不会生效。
+  Join: "default"  # 支持 PlaceholderAPI, 如要使用原版消息，请使用 "default"
+  Quit: "default" # 支持 PlaceholderAPI, 如要使用原版消息，请使用 "default"
+  Console-Denied: "&7你不能在后台执行此命令。"
+  Help-Line-1: "&bCZUtils &7帮助"
+  Help-Line-2: "&b/czutils help &8- &7查看 CZUtils 的帮助"
+  Help-Line-3: "&b/czutils language &8- &7切换 CZUtils 的语言 &7(其他语言在切换后仅你可见)"
+  Language-Usage: "&7用法: &b/czutils language <语言> \n可用语言列表: %lang%"
+  Language-Changed: "&7你的 CZUtils 语言已更新为 &b%lang%"
+  Language-Not-Found: "&b%lang% 不存在！"
+  Reloaded: "&7插件已更新!"

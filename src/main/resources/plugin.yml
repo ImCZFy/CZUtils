@@ -1,0 +1,10 @@
+name: CZUtils
+version: '${project.version}'
+main: com.github.imczfy.czutils.CZUtils
+description: 你为什么要看这个
+softdepend:
+  - PlaceholderAPI
+commands:
+  czutils:
+    aliases:
+      - czutilities
